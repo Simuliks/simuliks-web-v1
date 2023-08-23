@@ -1,0 +1,163 @@
+
+@keyframes notLoading {
+  
+    100% {
+      visibility: visible;
+      transition: 1s;
+    }
+  }
+
+  @keyframes selected-colorful-anim {
+    0% {
+      width: 0%;
+    }
+
+    20% {
+      width: 10%;
+      background: #E08E45;
+    }
+
+    40% {
+      width: 20%;
+      background: linear-gradient(
+        to right,
+        #E08E45 45%,
+        #91C499 45% 100%
+      );
+    }
+
+    60% {
+      width: 30%;
+      background: linear-gradient(
+        to right,
+        #E08E45 45%,
+        #91C499 45% 75%,
+        #19535F 25%
+      );
+    }
+    
+    80% {
+      width: 50%;
+      background: linear-gradient(
+        to right,
+        #E08E45 45%,
+        #91C499 45% 75%,
+        #19535F 75% 95%,
+        #5FAD56 95% 100%
+      );
+    }
+
+    100% {
+        width: 100%;
+        background: linear-gradient(
+          to right,
+          #E08E45 45%,
+          #91C499 45% 75%,
+          #19535F 75% 95%,
+          #5FAD56 95% 100%
+        );
+    }
+  }
+
+  @keyframes background-appear {
+    from {
+      background: none;
+      box-shadow: 0px 0px 0px 0px black;
+    }
+
+    to {
+      background: #110d18d0;
+      box-shadow: 0px 0px 0.5vw 0px black;
+    }
+  }
+
+  @keyframes background-dissapear {
+    from {
+      background: #110d18d0;
+      box-shadow: 0px 0px 0.5vw 0px black;
+    }
+
+    to {
+      background: none;
+      box-shadow: 0px 0px 0px 0px black;
+    }
+  }
+
+
+  @keyframes typing {
+    from {
+      width: 0;
+      visibility:visible;
+    }
+
+    to {
+      width: 100%;
+      visibility:visible;
+    }
+  }
+      
+  @keyframes blink {
+    from, to {
+      border-color: transparent;
+      visibility:visible;
+
+    }
+
+    50% {
+      border-color: rgba(66, 206, 66, 0.4);  
+      visibility:visible;
+    }
+  }
+
+  @keyframes abt-me-change-bcg {
+    0%{background-position:53% 0%}
+    50%{background-position:48% 100%}
+    100%{background-position:53% 0%}
+}
+
+
+  @keyframes loader {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    25% {
+      transform: rotate(180deg);
+    }
+  
+    50% {
+      transform: rotate(180deg);
+    }
+  
+    75% {
+      transform: rotate(360deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes loader-inner {
+    0% {
+      height: 0%;
+    }
+  
+    25% {
+      height: 0%;
+    }
+  
+    50% {
+      height: 100%;
+    }
+  
+    75% {
+      height: 100%;
+    }
+  
+    100% {
+      height: 0%;
+    }
+  }
+
+
