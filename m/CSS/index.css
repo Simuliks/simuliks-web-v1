@@ -1,0 +1,17 @@
+header {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient( rgba(23, 17, 35, 0.4), rgba(23, 17, 35, 0.7)), url(images/background-pic.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body {
+    color: #fdfdfd;
+}
+
+html {
+    scroll-behavior: smooth;
+}
